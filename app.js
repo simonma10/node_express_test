@@ -47,26 +47,6 @@ app.route('/toons/new')
           fs.readFile("toons.json", 'utf8', function (err, data) {
               var toons = JSON.parse( data );
 
-              /*const x = (function() {
-                  for (let toon of Array.from(toons))  {
-                      console.log(toon.name);
-                  }
-              });
-
-              //get max value of id
-              for (var i = 0; i < toons.length; i ++ ){
-                  var index = "toon" + i.toString();
-                  console.log(index);
-                  var toon = toons[index];
-                  if(toon){
-                      console.log('found toon ' + toon.name);
-                      if (parseInt(toon.id) > max) {
-                          max = toon.id;
-                      }
-                  }
-              }
-              console.log(max);*/
-
               toons.push(test_toon);
               console.log( toons );
               new_toons = toons;
