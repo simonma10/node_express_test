@@ -1,0 +1,15 @@
+[
+  {
+    "name" : "Simolean",
+    "class" : "Paladin",
+    "spec" : "Protection",
+    "id" : 1
+  },
+  {
+    "name" : "Simonator",
+    "class" : "Mage",
+    "spec" : "Fire",
+    "id" : 2
+  }
+
+]
